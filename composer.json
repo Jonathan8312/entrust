@@ -1,5 +1,5 @@
 {
-    "name": "trebol/entrust",
+    "name": "tbc/entrust",
     "description": "This package provides a flexible way to add role-based permissions to Laravel and is a fork from Zizaco/entrust",
     "type": "library",
     "license": "MIT",
