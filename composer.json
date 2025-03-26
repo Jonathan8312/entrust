@@ -38,7 +38,7 @@
         "symfony/polyfill-php80": "^1.0.0",
         "symfony/process": "^7.0",
         "symfony/service-contracts": "^3.3.0",
-        "symfony/string": "^6.3.0",
+        "symfony/string": "^6.3.0 || ^7.0",
         "symfony/translation": "^6.3.0",
         "symfony/translation-contracts": "^3.3.0",
         "voku/portable-ascii": "^2.0.1",
