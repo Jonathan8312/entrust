@@ -1144,4 +1144,9 @@ class HasRoleUser implements EntrustUserInterface
     {
 
     }
+
+    public function can($permission, $requireAll = false)
+    {
+        return true;
+    }
 }

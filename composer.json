@@ -51,21 +51,6 @@
         "psr/cache": "^3.0.0",
         "psr/event-dispatcher": "^1.0.0",
         "psr/log": "^3.0.0",
-        "sebastian/cli-parser": "^3.0.1",
-        "sebastian/code-unit": "^3.0.0",
-        "sebastian/code-unit-reverse-lookup": "^4.0.0",
-        "sebastian/comparator": "^6.0.0",
-        "sebastian/complexity": "^4.0.0",
-        "sebastian/diff": "^6.0.1",
-        "sebastian/environment": "^7.0.1",
-        "sebastian/exporter": "^6.0.1",
-        "sebastian/global-state": "^7.0.1",
-        "sebastian/lines-of-code": "^3.0.0",
-        "sebastian/object-enumerator": "^6.0.0",
-        "sebastian/object-reflector": "^4.0.0",
-        "sebastian/recursion-context": "^6.0.0",
-        "sebastian/type": "^5.0.0",
-        "sebastian/version": "^5.0.0",
         "symfony/cache": "^6.3.0",
         "symfony/cache-contracts": "^3.3.0",
         "symfony/event-dispatcher": "^6.3.0",
@@ -76,14 +61,14 @@
         "theseer/tokenizer": "^1.2.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "dev-main",
+        "phpunit/phpunit": "^10.1",
         "mockery/mockery": "^1.5.1",
         "overtrue/phplint": "^9.0.3",
-        "phpunit/php-code-coverage": "dev-main",
-        "phpunit/php-file-iterator": "dev-main",
-        "phpunit/php-invoker": "dev-main",
-        "phpunit/php-text-template": "dev-main",
-        "phpunit/php-timer": "dev-main"
+        "phpunit/php-code-coverage": "^10.1",
+        "phpunit/php-file-iterator": "^4.0",
+        "phpunit/php-invoker": "^4.0",
+        "phpunit/php-text-template": "^3.0",
+        "phpunit/php-timer": "^6.0"
     },
     "autoload": {
         "classmap": [
@@ -93,12 +78,12 @@
             "Trebol\\Entrust\\": "src/Entrust/"
         }
     },
-    "extra":{
-        "laravel":{
-            "providers":[
+    "extra": {
+        "laravel": {
+            "providers": [
                 "Trebol\\Entrust\\EntrustServiceProvider"
             ],
-            "aliases":{
+            "aliases": {
                 "Entrust": "Trebol\\Entrust\\EntrustFacade"
             }
         }
